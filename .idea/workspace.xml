@@ -1,151 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8168741f-a89f-4727-b621-76d817034236" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8168741f-a89f-4727-b621-76d817034236" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qrcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qrcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Controllers/QrCodeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app/qrcode/QrCode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/svg/403.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/svg/404.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/svg/500.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/svg/503.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/views/qrcode/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/README.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdocker/php-fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/phpdocker/php-fpm/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app/Http/Controllers/QrCodeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app/qrcode/QrCode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="103" lean-forward="true" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/resources/views/qrcode/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/app/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/app/app/qr-code/QrCode.php" />
-        <option value="$PROJECT_DIR$/app/app/qrcode/QrCodeController.php" />
-        <option value="$PROJECT_DIR$/app/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/app/qrcode/QrCode.php" />
-        <option value="$PROJECT_DIR$/app/resources/views/qrcode/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/app/Http/Controllers/QrCodeController.php" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="27" />
-    <option name="width" value="1295" />
-    <option name="height" value="741" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/app/vendor/chillerlan/php-qrcode" />
+      <path value="$PROJECT_DIR$/app/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/app/vendor/chillerlan/php-settings-container" />
+      <path value="$PROJECT_DIR$/app/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/app/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/app/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/app/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/app/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/app/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/app/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/app/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/app/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/app/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/app/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/app/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/app/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/app/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/app/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/app/vendor/laravel/slack-notification-channel" />
+      <path value="$PROJECT_DIR$/app/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/app/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/app/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/app/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/app/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/app/vendor/nexmo/client" />
+      <path value="$PROJECT_DIR$/app/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/app/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/app/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/app/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/app/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/app/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/app/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/app/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/app/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/app/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/app/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/app/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/app/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/app/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/app/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/app/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/app/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/app/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/app/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/app/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/app/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/app/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/app/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/app/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/app/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/app/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/app/vendor/phpunit/phpunit" />
+    </include_path>
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qrcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1YksMlMMynrMchckxfdQN9sz0wb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../massoterapia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="docker-compose.yml.php-fpm: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="php-fpm" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Docker.docker-compose.yml.php-fpm: Compose Deployment" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,116 +269,21 @@
       <option name="presentableId" value="Default" />
       <updated>1555040744509</updated>
       <workItem from="1555040745939" duration="2884000" />
+      <workItem from="1583497881559" duration="2884000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2884000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="65" y="25" width="1295" height="743" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24979983" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="1002" column="13" selection-start-line="1002" selection-start-column="13" selection-end-line="1002" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/Http/Controllers/QrCodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app/qrcode/QrCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="103" lean-forward="true" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/resources/views/qrcode/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="2234" y="255" width="642" height="567" key="#docker-compose.yml.php-fpm:_Compose_Deployment" timestamp="1583499576661">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2234" y="255" width="642" height="567" key="#docker-compose.yml.php-fpm:_Compose_Deployment/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1583499576661" />
+    <state x="2285" y="451" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583499524632">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2285" y="451" width="540" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1533.873/1600.0.1920.1080@1600.0.1920.1080" timestamp="1583499524632" />
   </component>
 </project>

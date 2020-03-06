@@ -8,6 +8,9 @@
 <body>
 
 <img src="{{$dados}}">
+<img src="{{$dados}}">
+<img src="{{$dados}}">
+
 
 </body>
 </html>
