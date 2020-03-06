@@ -74,7 +74,7 @@ class QrCode
         ])->render();
 
         $opcoesPdf = [
-            'binary' => '/usr/local/bin/wkhtmltopdf',
+            'binary' => '/usr/local/bin/wkhtmltopdf-amd64',
             'page-width' => '210mm',
             'page-height' => '297mm',
             'dpi' => 96,
@@ -100,6 +100,10 @@ class QrCode
 
         $pdf = new Pdf($view);
         $pdf->setOptions($opcoesPdf);
+
+        if (!$pdf->send()) {
+            throw new \Exception('Não foi possível criar PDF: '.$pdf->getError());
+        }
 
         return $pdf->send('nomeRelatorioPdf.pdf');
     }
