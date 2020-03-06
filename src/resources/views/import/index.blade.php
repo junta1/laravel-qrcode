@@ -7,11 +7,10 @@
 </head>
 <body>
 
-{{--<img src="{{$dados}}">--}}
-
 @foreach($dados as $dado)
     <img src="{{$dado}}">
 @endforeach
 
 </body>
+{{--{!! dd($dados) !!}--}}
 </html>

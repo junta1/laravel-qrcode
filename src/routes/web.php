@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('qrcode','QrCodeController@index');
+
+Route::resource('import','ExcelController');

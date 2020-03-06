@@ -7,11 +7,12 @@
 </head>
 <body>
 
-{{--<img src="{{$dados}}">--}}
+{!! Form::open(array('route' => 'import.store','method' => 'post', 'files' => true)) !!}
 
-@foreach($dados as $dado)
-    <img src="{{$dado}}">
-@endforeach
+{!! Form::file('file') !!}
 
+{!! Form::submit('Cadastrar',array('class' => 'btn btn-success', )) !!}
+
+{!! Form::close() !!}
 </body>
 </html>
