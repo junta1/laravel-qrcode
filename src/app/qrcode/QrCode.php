@@ -105,6 +105,6 @@ class QrCode
             throw new \Exception('Não foi possível criar PDF: '.$pdf->getError());
         }
 
-        return $pdf->send('nomeRelatorioPdf.pdf');
+        return $pdf->send();
     }
 }

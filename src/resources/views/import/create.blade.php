@@ -7,7 +7,7 @@
 </head>
 <body>
 
-{!! Form::open(array('route' => 'import.store','method' => 'post', 'files' => true)) !!}
+{!! Form::open(array('route' => 'import.store','method' => 'post', 'files' => true, 'target' => '_blank')) !!}
 
 {!! Form::file('file') !!}
 

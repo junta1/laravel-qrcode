@@ -25,7 +25,6 @@ RUN apt-get clean all \
     && apt-get purge -y -q \
         wget \
 
-    # && apt-get autoremove -y -q \
     && apt-get clean -y -q \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/* \
 
