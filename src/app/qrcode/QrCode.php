@@ -74,7 +74,7 @@ class QrCode
         ])->render();
 
         $opcoesPdf = [
-            'binary' => '/usr/local/bin/wkhtmltopdf-amd64',
+            'binary' => '/usr/local/bin/wkhtmltopdf',
             'page-width' => '210mm',
             'page-height' => '297mm',
             'dpi' => 96,
