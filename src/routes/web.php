@@ -11,10 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('qrcode','QrCodeController@index');
-
-Route::resource('import','ExcelController');
+Route::resource('/','QrCodeController');

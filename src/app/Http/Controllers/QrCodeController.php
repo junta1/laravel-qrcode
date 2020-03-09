@@ -3,20 +3,28 @@
 namespace App\Http\Controllers;
 
 use App\qrcode\QrCode;
+use Illuminate\Http\Request;
 
 class QrCodeController extends Controller
 {
-    protected $qrcode;
+    protected $servico;
 
     public function __construct(QrCode $code)
     {
-        $this->qrcode = $code;
+        $this->servico = $code;
     }
 
     public function index()
     {
-        $dados = $this->qrcode->definindoCodigo();
+        return view('import.create');
+    }
 
-        return view('qrcode.index', compact('dados'));
+    public function store(Request $request)
+    {
+        $input = $request->all();
+
+        $dados = $this->servico->import($input);
+
+        return $dados;
     }
 }

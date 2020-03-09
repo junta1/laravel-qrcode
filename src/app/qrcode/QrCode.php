@@ -6,23 +6,6 @@ use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
 {
-    public function definindoCodigo()
-    {
-        $qrcode = new \chillerlan\QRCode\QRCode();
-
-        $datas = [
-            'https://imasters.com.br/back-end/criando-qr-codes-em-php-com-o-chillerlan-php-qrcode',
-            'https://imasters.com.br/back-end/criando-qr-codes-em-php-com-o-chillerlan-php-qrcode'
-        ];
-
-        $dados = [];
-        foreach ($datas as $data) {
-            $dados[] = $qrcode->render($data);
-        }
-
-        return $dados;
-    }
-
     public function import($input)
     {
         $dados = [];
@@ -69,7 +52,7 @@ class QrCode
 
     protected function gerarPdf(array $dados)
     {
-        $view = \View::make('import.index', [
+        $view = \View::make('import.gerar-pdf', [
             'dados' => $dados,
         ])->render();
 
