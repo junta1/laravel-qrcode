@@ -6,7 +6,7 @@ use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
 {
-    public function import($input)
+    public function importar($input)
     {
         $dados = [];
 

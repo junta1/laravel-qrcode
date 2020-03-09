@@ -23,7 +23,7 @@ class QrCodeController extends Controller
     {
         $input = $request->all();
 
-        $dados = $this->servico->import($input);
+        $dados = $this->servico->importar($input);
 
         return $dados;
     }
