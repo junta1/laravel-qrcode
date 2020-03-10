@@ -4,6 +4,7 @@ namespace App\qrcode;
 
 use App\qrcode\Repositorios\UsuarioRepositorio;
 use chillerlan\QRCode\QROptions;
+use chillerlan\QRCodeExamples\QRImageWithText;
 use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
@@ -34,6 +35,9 @@ class QrCode
         foreach ($dados as $key => $dado) {
             $usuario = $this->repositorio->getWhere($dado['login']);
 
+            if (empty($usuario)) {
+                continue;
+            }
             $itens[] = $this->tratarEntrada($usuario);
         }
 
@@ -53,6 +57,7 @@ class QrCode
     public function qrCode($itens)
     {
         $options = new QROptions([
+
             'scale'    => 9
         ]);
 
@@ -102,7 +107,7 @@ class QrCode
         $pdf->setOptions($opcoesPdf);
 
         if (!$pdf->send()) {
-            throw new \Exception('Não foi possível criar PDF: '.$pdf->getError());
+            throw new \Exception('Não foi possível criar PDF: ' . $pdf->getError());
         }
 
         return $pdf->send();
