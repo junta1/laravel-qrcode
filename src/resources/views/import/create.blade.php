@@ -95,7 +95,7 @@
         <h1>Gerador de QRCODE!</h1>
     </div>
 
-    <div class="border-top-left"></div>
+{{--    <div class="border-top-left"></div>--}}
 
     <div class="container">
         <div class="first">
