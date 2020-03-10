@@ -4,7 +4,6 @@ namespace App\qrcode;
 
 use App\qrcode\Repositorios\UsuarioRepositorio;
 use chillerlan\QRCode\QROptions;
-use chillerlan\QRCodeExamples\QRImageWithText;
 use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode

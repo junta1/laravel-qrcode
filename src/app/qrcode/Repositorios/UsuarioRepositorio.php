@@ -19,5 +19,4 @@ class UsuarioRepositorio
 
         return $model->first();
     }
-
 }
