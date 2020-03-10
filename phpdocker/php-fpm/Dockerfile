@@ -3,7 +3,7 @@ WORKDIR "/application"
 
 RUN apt-get clean all \
     && apt-get update \
-    && apt-get -y --no-install-recommends install php7.2-gd \
+    && apt-get -y --no-install-recommends install php7.2-gd php7.2-pgsql \
     # Pacotes usados apenas para construção do container
         wget \
     # Resolve o problema de fontes True Type no WKHtmlToPDF

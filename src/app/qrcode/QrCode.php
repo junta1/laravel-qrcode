@@ -2,11 +2,20 @@
 
 namespace App\qrcode;
 
+use App\qrcode\Repositorios\UsuarioRepositorio;
+use chillerlan\QRCode\QROptions;
 use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
 {
-    public function import($input)
+    protected $repositorio;
+
+    public function __construct(UsuarioRepositorio $usuarioRepositorio)
+    {
+        $this->repositorio = $usuarioRepositorio;
+    }
+
+    public function importar($input)
     {
         $dados = [];
 
@@ -23,24 +32,31 @@ class QrCode
 
         $itens = [];
         foreach ($dados as $key => $dado) {
-            $itens[] = $this->tratarEntrada($dado);
+            $usuario = $this->repositorio->getWhere($dado['login']);
+
+            $itens[] = $this->tratarEntrada($usuario);
         }
 
         $qrcode = $this->qrCode($itens);
 
-        return $this->gerarPdf($qrcode);
+        return $this->gerarPdf($qrcode, $itens);
     }
 
     public function tratarEntrada($dados)
     {
         return [
-            'id' => $dados['id']
+            'id' => $dados['usr_codigo'],
+            'nome' => $dados['usr_nome']
         ];
     }
 
     public function qrCode($itens)
     {
-        $qrcode = new \chillerlan\QRCode\QRCode();
+        $options = new QROptions([
+            'scale'    => 10
+        ]);
+
+        $qrcode = new \chillerlan\QRCode\QRCode($options);
 
         $dados = [];
         foreach ($itens as $item) {
@@ -50,10 +66,11 @@ class QrCode
         return $dados;
     }
 
-    protected function gerarPdf(array $dados)
+    protected function gerarPdf(array $dados, array $usuario)
     {
         $view = \View::make('import.gerar-pdf', [
             'dados' => $dados,
+            'usuario' => $usuario,
         ])->render();
 
         $opcoesPdf = [

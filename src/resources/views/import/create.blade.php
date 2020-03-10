@@ -177,6 +177,8 @@
     <div class="border-top-right"></div>
     <div class="border-bottom-left"></div>
     <div class="border-bottom-right"></div>
+    <div class="border-top-left"></div>
+
 
     <div class="container">
         <div class="first">
