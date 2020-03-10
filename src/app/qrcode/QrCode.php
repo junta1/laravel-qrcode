@@ -4,6 +4,7 @@ namespace App\qrcode;
 
 use App\qrcode\Repositorios\UsuarioRepositorio;
 use chillerlan\QRCode\QROptions;
+use chillerlan\QRCodeExamples\QRImageWithText;
 use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
@@ -53,7 +54,7 @@ class QrCode
     public function qrCode($itens)
     {
         $options = new QROptions([
-            'scale'    => 10
+            'scale' => 8
         ]);
 
         $qrcode = new \chillerlan\QRCode\QRCode($options);
@@ -79,11 +80,11 @@ class QrCode
             'page-height' => '297mm',
             'dpi' => 96,
             'image-quality' => 100,
-            'margin-top' => '35mm',
+            'margin-top' => '5mm',
             'margin-right' => '10mm',
             'margin-bottom' => '12mm',
             'margin-left' => '10mm',
-            'orientation' => 'Landscape',
+            'orientation' => 'Portrait',
             'page-size' => 'A4',
             'encoding' => 'UTF-8',
             'enable-smart-shrinking',
@@ -102,7 +103,7 @@ class QrCode
         $pdf->setOptions($opcoesPdf);
 
         if (!$pdf->send()) {
-            throw new \Exception('Não foi possível criar PDF: '.$pdf->getError());
+            throw new \Exception('Não foi possível criar PDF: ' . $pdf->getError());
         }
 
         return $pdf->send();
