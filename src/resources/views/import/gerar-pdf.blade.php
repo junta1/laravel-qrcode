@@ -8,28 +8,30 @@
 
 <style>
     .container {
-        display: flex;
-        justify-content: space-around;
+        display: inline-block;
+        width: 33%;
+        height: 280px;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
     }
-
     .align {
         text-align: center;
-        padding: 15px;
+        height: 280px;
     }
 </style>
 
 <body>
 
+@foreach($dados as $key => $dado)
 <div class="container">
-    @foreach($dados as $key => $dado)
-        <div class="align">
-            <img src="{{$dado}}">
-            <br>
-            <b>{!! $usuario[$key]['nome'] !!}</b>
-        </div>
-    @endforeach
+    <div class="align">
+        <img src="{{$dado}}">
+        <b>{!! $usuario[$key]['nome'] !!}</b>
+    </div>
 </div>
+@endforeach
 
 
 </body>
+
 </html>

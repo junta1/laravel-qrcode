@@ -53,7 +53,7 @@ class QrCode
     public function qrCode($itens)
     {
         $options = new QROptions([
-            'scale'    => 10
+            'scale'    => 9
         ]);
 
         $qrcode = new \chillerlan\QRCode\QRCode($options);
@@ -79,11 +79,11 @@ class QrCode
             'page-height' => '297mm',
             'dpi' => 96,
             'image-quality' => 100,
-            'margin-top' => '35mm',
+            'margin-top' => '5mm',
             'margin-right' => '10mm',
             'margin-bottom' => '12mm',
             'margin-left' => '10mm',
-            'orientation' => 'Landscape',
+            'orientation' => 'Portrait',
             'page-size' => 'A4',
             'encoding' => 'UTF-8',
             'enable-smart-shrinking',
