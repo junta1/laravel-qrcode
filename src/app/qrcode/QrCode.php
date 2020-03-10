@@ -3,6 +3,7 @@
 namespace App\qrcode;
 
 use App\qrcode\Repositorios\UsuarioRepositorio;
+use chillerlan\QRCode\QROptions;
 use mikehaertl\wkhtmlto\Pdf;
 
 class QrCode
@@ -51,7 +52,11 @@ class QrCode
 
     public function qrCode($itens)
     {
-        $qrcode = new \chillerlan\QRCode\QRCode();
+        $options = new QROptions([
+            'scale'    => 10
+        ]);
+
+        $qrcode = new \chillerlan\QRCode\QRCode($options);
 
         $dados = [];
         foreach ($itens as $item) {
