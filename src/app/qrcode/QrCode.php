@@ -35,6 +35,9 @@ class QrCode
         foreach ($dados as $key => $dado) {
             $usuario = $this->repositorio->getWhere($dado['login']);
 
+            if (empty($usuario)) {
+                continue;
+            }
             $itens[] = $this->tratarEntrada($usuario);
         }
 
