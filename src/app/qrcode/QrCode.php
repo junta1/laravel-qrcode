@@ -56,7 +56,6 @@ class QrCode
     public function qrCode($itens)
     {
         $options = new QROptions([
-
             'scale'    => 9
         ]);
 
@@ -64,7 +63,7 @@ class QrCode
 
         $dados = [];
         foreach ($itens as $item) {
-            $dados[] = $qrcode->render($item['id']);
+            $dados[] = $qrcode->render('idUsuario='.$item['id']);
         }
 
         return $dados;
