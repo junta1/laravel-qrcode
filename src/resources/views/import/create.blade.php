@@ -19,13 +19,13 @@
     }
 
     .container {
-        width: 470px;
-        height: 470px;
+        width: 35%;
+        height: 60%;
         border-radius:50%;
         background-color:#fff;
         position:absolute;
-        top:30%;
-        left: 35%;
+        top:27%;
+        left: 32%;
         text-align: center;
     }
 
@@ -39,7 +39,7 @@
     .jumbotrom {
         width: 100%;
         background-color: #17a2b8;
-        padding: 70px 0px;
+        padding: 60px 0px;
     }
 
     h1 {
@@ -59,12 +59,12 @@
     }
 
     .btn {
-        padding: 8px 15px;
+        padding: 9px 18px;
         border: 1px solid #28a745;
         background-color: #28a745;
         border-radius: 6px;
         outline: none;
-        font-size: 16px;
+        font-size: 18px;
         color: #fff;
     }
 
@@ -79,13 +79,91 @@
         padding: 10px;
     }
 
-    .border-top-left {
+    .border-top-left:after {
+        content: "";
         position: absolute;
-        left: 30%;
-        width: 80px;
-        height:8px;
-        background-color:#000;
+        left: 23%;
+        width: 10%;
+        height:1.5%;
+        background-color:#fff;
     }
+
+    .border-top-left:before {
+        content: "";
+        position: absolute;
+        left: 22%;
+        width: 1%;
+        height:15%;
+        background-color:#fff;
+    }
+
+    .border-top-right:after {
+        content: "";
+        position: absolute;
+        left: 68%;
+        width: 10%;
+        height:1.5%;
+        background-color:#fff;
+    }
+
+    .border-top-right:before {
+        content: "";
+        position: absolute;
+        left: 78%;
+        width: 1%;
+        height:15%;
+        background-color:#fff;
+    }
+
+    .border-bottom-left:after {
+        content: "";
+        position: absolute;
+        left: 23%;
+        top:89.5%;
+        width: 10%;
+        height:1.5%;
+        background-color:#fff;
+    }
+
+    .border-bottom-left:before {
+        content: "";
+        position: absolute;
+        left: 22%;
+        top:76%;
+        width: 1%;
+        height:15%;
+        background-color:#fff;
+    }
+
+    .border-bottom-right:after {
+        content: "";
+        position: absolute;
+        left: 68%;
+        top:89.5%;
+        width: 10%;
+        height:1.5%;
+        background-color:#fff;
+    }
+
+    .border-bottom-right:before {
+        content: "";
+        position: absolute;
+        left: 78%;
+        top:76%;
+        width: 1%;
+        height:15%;
+        background-color:#fff;
+    }
+
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+    
 
 </style>
 
@@ -96,6 +174,9 @@
     </div>
 
     <div class="border-top-left"></div>
+    <div class="border-top-right"></div>
+    <div class="border-bottom-left"></div>
+    <div class="border-bottom-right"></div>
 
     <div class="container">
         <div class="first">
@@ -103,7 +184,7 @@
 
             {!! Form::file('file',array('class' => 'form-control')) !!}
 
-            {!! Form::submit('Cadastrar',array('class' => 'btn')) !!}
+            {!! Form::submit('Gerar',array('class' => 'btn')) !!}
 
             {!! Form::close() !!}
         </div>
