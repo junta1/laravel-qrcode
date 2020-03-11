@@ -35,6 +35,10 @@
         <div class="align">
             <b>{!! $usuario[$key]['nome'] !!}</b>
         </div>
+
+        <div class="align">
+            <b>{!! $usuario[$key]['diretoria'] !!}</b>
+        </div>
     </div>
 @endforeach
 

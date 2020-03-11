@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class UsuarioModel extends Model
 {
-    protected $table = 'fr_usuario';
+    protected $table = 'usuario';
 
-    protected $primaryKey = 'usr_codigo';
+    protected $primaryKey = 'usua_id';
 
-    public $connection = 'pgsql';
+    public $connection = 'novoPolo';
 }

@@ -30,13 +30,16 @@ class QrCode
             }
         });
 
+        $usuarioNaoEncontrado = [];
         $itens = [];
         foreach ($dados as $key => $dado) {
             $usuario = $this->repositorio->getWhere($dado['login']);
 
             if (empty($usuario)) {
+                $usuarioNaoEncontrado[] = $dado['login'];
                 continue;
             }
+
             $itens[] = $this->tratarEntrada($usuario);
         }
 
@@ -48,8 +51,9 @@ class QrCode
     public function tratarEntrada($dados)
     {
         return [
-            'id' => $dados['usr_codigo'],
-            'nome' => $dados['usr_nome']
+            'id' => $dados['fr_usuario_usr_codigo'],
+            'nome' => $dados['usua_nome'],
+            'diretoria' => $dados['unid_sigla']
         ];
     }
 
