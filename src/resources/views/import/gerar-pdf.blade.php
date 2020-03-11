@@ -9,7 +9,7 @@
 <style>
     .container {
         display: inline-block;
-        width: 33%;
+        width: 24%;
         height: 280px;
         justify-content: space-evenly;
         margin-bottom: 25px;
@@ -17,7 +17,10 @@
 
     .align {
         text-align: center;
-        height: 280px;
+    }
+
+    b {
+        font-size: 11px;
     }
 </style>
 
@@ -27,6 +30,9 @@
     <div class="container">
         <div class="align">
             <img src="{{$dado}}">
+        </div>
+
+        <div class="align">
             <b>{!! $usuario[$key]['nome'] !!}</b>
         </div>
     </div>
