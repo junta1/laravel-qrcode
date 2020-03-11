@@ -1,5 +1,5 @@
 # Gerador de Qr Code
-Esse sistema tem o intuito de gerar qr code com base no usuário vinculado ao sistema Polo.
+Esse sistema tem o intuito de gerar qr code com base em uma lista de usuários.
 
 ## Executar o projeto
 
