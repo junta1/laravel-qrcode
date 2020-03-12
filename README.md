@@ -11,7 +11,7 @@ Esse sistema tem o intuito de gerar qr code com base em uma lista de usuários.
 $ service docker start
 ```
 
-**Nota** Em /qr-code, levante o container.
+**Nota** Em /laravel-qr-code, levante o container.
 
 ```bash
 $ docker-compose up -d
@@ -19,10 +19,10 @@ $ docker-compose up -d
 
 ## Instalar dependências
 
-**Nota:** Em /qr-code, acesse o container inova-qrcode-php-fpm.
+**Nota:** Em /laravel-qr-code, acesse o container qrcode-php-fpm.
 
 ```bash
-$ docker exec -it inova-qrcode-php-fpm bash
+$ docker exec -it qrcode-php-fpm bash
 ```
 
 **Nota:** Dentro do diretório /application# execute o comando:
@@ -39,7 +39,7 @@ $ composer install
 $ chmod 777 -R storage/ bootstrap/
 ```
 
-**Nota:** Em /qr-code/src, copie e cole o arquivo .env.example para a pasta atual, em seguida,
+**Nota:** Em /laravel-qr-code/src, copie e cole o arquivo .env.example para a pasta atual, em seguida,
 renomeie para .env.
 
 
