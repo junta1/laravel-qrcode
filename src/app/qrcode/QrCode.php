@@ -91,7 +91,6 @@ class QrCode
             'margin-bottom' => '12mm',
             'margin-left' => '10mm',
             'orientation' => 'Landscape',
-//            'orientation' => 'Portrait',
             'page-size' => 'A4',
             'encoding' => 'UTF-8',
             'enable-smart-shrinking',
