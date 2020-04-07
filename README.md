@@ -1,4 +1,4 @@
-# Gerador de Qr Code
+# Gerador de QrCode
 Esse sistema tem o intuito de gerar qr code com base em uma lista de usuários.
 
 ## Executar o projeto
